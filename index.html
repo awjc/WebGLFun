@@ -3,17 +3,20 @@
 <head>
     <title>My Very Own Page</title>
     <script src="Scripts/jquery-2.1.1.js"></script>
-    <script src="Scripts/three.js"></script>
+    <script src="Scripts/three.js"></script> 
+    <script type="text/javascript" src="Scripts/OBJLoader.js"></script>
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="Styles/mystyle.css">
 </head>
 <body>
-    Body content
-    <p>Oh boy, show me that body</p>
+    <div id="canvas" class="centered">
+        WebGL is not available on your system. Please visit <a href="http://get.webgl.org">http://get.webgl.org</a>
+    </div>
 
-    <script type="text/javascript">
-        /// <reference path="Scripts/jquery-2.1.1.intellisense.js">
-        
-        var x = new THREE.BoxGeometry(1, 2, 3);
-        new THREE.webgl
+    <!-- Custom JS -->
+    <script src="Scripts/webgltest.js">
+        $().append("DAMN YOU VISUAL STUDIO")
     </script>
 </body>
 </html>
