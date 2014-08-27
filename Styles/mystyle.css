@@ -1,0 +1,23 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #ffddaa;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+}
