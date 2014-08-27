@@ -1,5 +1,4 @@
-
-var _x = function() {
+(function() {
     "use strict";
     function GameObject(mesh, position, update) {
         this.mesh = mesh;
@@ -132,4 +131,4 @@ var _x = function() {
             }
         }());
     })
-}()
+})();
