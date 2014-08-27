@@ -41,7 +41,7 @@ var _x = function() {
                 shininess: 1
             });
 
-            var n = 400;
+            var n = 40;
             var rx = 6;
             var rz = 0;
             if (n > 0) {
